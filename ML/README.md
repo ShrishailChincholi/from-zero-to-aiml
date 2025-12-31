@@ -125,5 +125,86 @@ Semi-structured data is a mix of structured and unstructured data.
 | Unstructured | No format | Images, Videos, Text |
 | Semi-Structured | Partial structure | JSON, XML |
 
+## 📏 Model Evaluation
 
+Model evaluation is the process of **measuring how well a Machine Learning model performs** on unseen (new) data.
+
+It helps us understand:
+- How accurate the model is
+- Whether the model is overfitting or underfitting
+- Which model performs better
+
+---
+
+## 🧪 Types of Evaluation
+
+### 1️⃣ Classification Evaluation
+Used when the output is a **category** (Yes/No, Spam/Not Spam).
+
+**Common Metrics:**
+- **Accuracy** – Overall correctness of the model
+- **Precision** – How many predicted positives are correct
+- **Recall** – How many actual positives are correctly predicted
+- **F1-Score** – Balance between precision and recall
+- **Confusion Matrix** – Shows correct and incorrect predictions
+
+**Examples:**
+- Spam detection
+- Disease prediction
+
+---
+
+### 2️⃣ Regression Evaluation
+Used when the output is a **numerical value**.
+
+**Common Metrics:**
+- **Mean Absolute Error (MAE)**
+- **Mean Squared Error (MSE)**
+- **Root Mean Squared Error (RMSE)**
+- **R² Score (Coefficient of Determination)**
+
+**Examples:**
+- House price prediction
+- Salary prediction
+
+---
+
+### 3️⃣ Clustering Evaluation
+Used for **unsupervised learning** models.
+
+**Common Metrics:**
+- **Silhouette Score**
+- **Davies–Bouldin Index**
+- **Inertia**
+
+**Examples:**
+- Customer segmentation
+- Market analysis
+
+---
+
+### 4️⃣ Train-Test Evaluation
+Used to check model performance on unseen data.
+
+**Methods:**
+- Train-Test Split
+- Cross-Validation (K-Fold)
+
+---
+
+## 📊 Evaluation Summary
+| Problem Type | Evaluation Metrics |
+|-------------|------------------|
+| Classification | Accuracy, Precision, Recall, F1 |
+| Regression | MAE, MSE, RMSE, R² |
+| Clustering | Silhouette, Davies-Bouldin |
+| General | Cross-Validation |
+
+---
+
+## 🎯 Why Evaluation is Important
+- Improves model performance
+- Prevents overfitting
+- Helps in model comparison
+- Ensures reliability
 
