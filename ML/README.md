@@ -293,5 +293,22 @@ Test data is used to **evaluate final model performance**.
 - compare apples to apples
 - one best performance metric does not equal best model
 
+## 🧪 Experiments
+
+Experiments in Machine Learning are used to **test and improve model performance**.
+
+### Purpose of Experiments:
+- Compare different models
+- Tune hyperparameters
+- Improve accuracy
+- Select the best model
+
+### Common Experiment Types:
+- Model comparison
+- Hyperparameter tuning
+- Feature engineering
+- Data preprocessing
+
+Experiments help in building **better and more reliable ML models**.
 
 
