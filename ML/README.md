@@ -208,3 +208,90 @@ Used to check model performance on unseen data.
 - Helps in model comparison
 - Ensures reliability
 
+## 🧠 Model Building & Data Splitting
+
+In Machine Learning, data is divided into different parts to **train, tune, and evaluate** the model properly.
+
+---
+
+## 🔧 What is Modeling?
+Modeling is the process of:
+- Selecting a Machine Learning algorithm
+- Training it on data
+- Making predictions
+- Evaluating performance
+
+A **model** learns patterns from data to predict outputs for new inputs.
+
+---
+
+## 📂 Types of Data in Modeling
+
+### 1️⃣ Training Data
+Training data is used to **teach the model**.
+
+**Purpose:**
+- Learn patterns and relationships
+- Fit the model
+
+**Usually:** 60–80% of total data
+
+**Example:**
+- Model learns how features relate to output
+
+---
+
+### 2️⃣ Validation Data
+Validation data is used to **tune the model**.
+
+**Purpose:**
+- Hyperparameter tuning
+- Model selection
+- Prevent overfitting
+
+**Usually:** 10–20% of total data
+
+**Example:**
+- Choosing best learning rate or number of trees
+
+---
+
+### 3️⃣ Test Data
+Test data is used to **evaluate final model performance**.
+
+**Purpose:**
+- Check how model performs on unseen data
+- Final accuracy measurement
+
+**Usually:** 10–20% of total data
+
+**Important:**
+- Test data should never be used in training
+
+---
+
+## 🔁 Common Data Splits
+- **70%** Training – **15%** Validation – **15%** Testing  
+- **80%** Training – **10%** Validation – **10%** Testing  
+
+---
+
+## 📊 Summary Table
+| Data Type | Purpose | Used When |
+|---------|--------|----------|
+| Training Data | Learn patterns | During training |
+| Validation Data | Tune model | During development |
+| Test Data | Final evaluation | After training |
+
+---
+
+## 🎯 Why Data Splitting is Important and Remember
+- Avoids overfitting
+- Improves model generalization
+- Gives reliable performance results
+- Keep the test set separate at all costs
+- compare apples to apples
+- one best performance metric does not equal best model
+
+
+
