@@ -345,4 +345,34 @@ It comes with Python and many pre-installed libraries.
 - Saves time
 - Widely used in Data Science
 
+## 🌱 Conda Environments
 
+A **Conda Environment** is an isolated workspace that allows you to **install and manage specific Python versions and libraries** without affecting other projects.
+
+---
+
+### Why Use Conda Environments?
+- Avoid library version conflicts
+- Keep projects separate
+- Easy dependency management
+- Safe experimentation
+
+---
+
+### Common Conda Commands
+- Create environment  
+  `conda create -n env_name python=3.x`
+
+- Activate environment  
+  `conda activate env_name`
+
+- Deactivate environment  
+  `conda deactivate`
+
+- List environments  
+  `conda env list`
+
+---
+
+### Use Case
+Different projects can use different libraries and versions using separate conda environments.
