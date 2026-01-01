@@ -312,3 +312,37 @@ Experiments in Machine Learning are used to **test and improve model performance
 Experiments help in building **better and more reliable ML models**.
 
 
+Day 3
+## 🐍 Anaconda Software
+
+### What is Anaconda?
+Anaconda is a **free and open-source software distribution** used for **Python programming, Data Science, Machine Learning, and Artificial Intelligence**.  
+It comes with Python and many pre-installed libraries.
+
+---
+
+### Uses of Anaconda
+- Run Python programs
+- Data analysis and visualization
+- Machine Learning and AI projects
+- Manage virtual environments
+- Use Jupyter Notebook for coding
+
+---
+
+### Tools Included
+- Python
+- Jupyter Notebook
+- Anaconda Navigator
+- Spyder IDE
+- Conda Package Manager
+
+---
+
+### Why Use Anaconda?
+- Beginner-friendly
+- Easy library management
+- Saves time
+- Widely used in Data Science
+
+
