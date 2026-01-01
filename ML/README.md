@@ -376,3 +376,40 @@ A **Conda Environment** is an isolated workspace that allows you to **install an
 
 ### Use Case
 Different projects can use different libraries and versions using separate conda environments.
+
+## ⬇️ Steps to Download & Install Conda (Anaconda)
+
+### Step 1: Open Browser
+Open any web browser (Chrome, Edge, Firefox).
+
+---
+
+### Step 2: Visit Anaconda Website
+Go to:
+- https://www.anaconda.com
+
+---
+
+### Step 3: Download Anaconda
+- Click **Download**
+- Select **Anaconda Distribution**
+- Choose your operating system (Windows / macOS / Linux)
+- Download **Python 3.x (64-bit)** version
+
+---
+
+### Step 4: Run Installer (Windows)
+1. Double-click the downloaded `.exe` file  
+2. Click **Next**
+3. Click **I Agree**
+4. Select **Just Me**
+5. Click **Next**
+6. Click **Install**
+7. Click **Finish**
+
+---
+
+### Step 5: Verify Installation
+Open **Anaconda Prompt** and run:
+```bash
+python --version
