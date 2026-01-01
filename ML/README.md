@@ -413,3 +413,36 @@ Go to:
 Open **Anaconda Prompt** and run:
 ```bash
 python --version
+
+# Setting Up Jupyter in Conda Environment
+
+This guide explains how to install Jupyter Notebook in a Conda environment and resolve common installation issues with newer Python versions.
+
+---
+
+## Problem
+
+Trying to install Jupyter in a Conda environment with **Python 3.13** fails with the error:
+
+
+**Reason:**  
+Jupyter (and many other packages) do **not yet support Python 3.13**. Conda cannot resolve dependencies, so installation fails.
+
+---
+
+## Solution (Recommended)
+
+Create a new Conda environment with a compatible Python version (3.10–3.11) and install Jupyter:
+
+```bash
+# Step 1: Create a new environment with Python 3.11
+conda create -n myenv python=3.11
+
+# Step 2: Activate the environment
+conda activate myenv
+
+# Step 3: Install Jupyter
+conda install jupyter
+
+# Step 4: Launch Jupyter Notebook
+jupyter notebook
