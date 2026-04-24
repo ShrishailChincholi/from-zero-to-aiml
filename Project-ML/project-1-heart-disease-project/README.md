@@ -1,4 +1,4 @@
-# ❤️ End-to-End Heart Disease Classification
+#  End-to-End Heart Disease Classification
 
 > A complete Machine Learning project that predicts the presence of heart disease using clinical data — built with a full ML pipeline from scratch.
 
